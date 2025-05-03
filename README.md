@@ -294,7 +294,7 @@ Visit [nibm.lk](https://www.nibm.lk) for more information.
 ## 🎬 Demo
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzBlYWNhZTg1N2QzZDI5MzU1ZmVjNjI3MDM2ZjE2ZTI3M2U1Yzk5YiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/5TJzSXvCejwRO3sqGV/giphy.gif" width="450px" alt="Demo Animation">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWVrczJ3ZHJkbXhoNjl6N3kxZnB2bmJjbzBmYTlkaDgwOWl5ZjdyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fvRAi1rD3zF0bxDCu0/giphy.gif">
   
   <h3>Watch our project demonstration video!</h3>
   
