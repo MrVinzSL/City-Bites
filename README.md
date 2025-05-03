@@ -1,4 +1,4 @@
-```markdown
+
 <h1 align="center">
   🌱 UrbanFood: Empowering Local Goodness 🌍
   <br/>
@@ -107,4 +107,4 @@ A simple, user-friendly frontend built with **React**, integrating both Oracle a
 <p align="center">
   <img src="https://media.giphy.com/media/xUPGcdhiQZZBv0m0RO/giphy.gif" width="200" />
 </p>
-```
+
