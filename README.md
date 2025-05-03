@@ -75,7 +75,7 @@ graph TD
 ## 🗄️ Database Components
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODYzZmY4MzkwOWRkOTRkNDQxZjdkNjM3NjFjZDFjYjBiZjg1NGUwYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPEqDGUULpEU0aQ/giphy.gif" width="450px" alt="Data Flow">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3o3M205eHY0Nno5YjBkNm84N2hjamRhMzAyazFoZXExNXU1NDh3NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xTiTnxpQ3ghPiB2Hp6/giphy.gif">
 </div>
 
 ### 🔶 Oracle Database Entities
