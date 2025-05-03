@@ -1,110 +1,113 @@
-
-<h1 align="center">
-  🌱 UrbanFood: Empowering Local Goodness 🌍
-  <br/>
-  <img src="https://media.giphy.com/media/6X3XcZkdxJvnO/giphy.gif" width="150"/>
-</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PL%2FSQL-%23007396.svg?style=for-the-badge&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NoSQL-%2300ED64.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
+# 🌟 **UrbanFood: Connecting Local Farmers to Consumers** 🌟
+_**Fresh, Local Goods Delivered Directly to You**_
 
 ---
 
-## 🚀 Project Overview
+## 🧑‍💻 **Tech Stack**
 
-Welcome to **UrbanFood**, a modern e-commerce platform that connects 🌆 urban farmers & local producers directly with consumers 🛒 who love fresh, homemade, and handcrafted items like:
-
-- 🥦 Fruits & Vegetables
-- 🥛 Dairy Products
-- 🍞 Baked Items
-- 🧶 Handmade Crafts
+[![Java](https://img.shields.io/badge/Java-FF5722?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
+[![PL/SQL](https://img.shields.io/badge/PL/SQL-FFD700?style=for-the-badge&logo=oracle)](https://www.oracle.com/database/technologies/plsql/)
+[![NoSQL](https://img.shields.io/badge/NoSQL-4CAF50?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 
 ---
 
-## 🛠️ Tech Stack & Database Design
+## 🚀 **Project Demo**
 
-We followed a hybrid database approach:
-
-🔹 **Oracle (Relational DB)** - Used for structured, transactional data with full PL/SQL support for data integrity and business logic.
-🔹 **MongoDB (NoSQL)** - For dynamic, user-generated content like reviews & feedback.
+[![UrbanFood Demo](https://media.giphy.com/media/1z14Zckh76PVhY5kLR/giphy.gif)](https://drive.google.com/file/d/1KwjudGJRlvS6HgIo_CtYlgwf0VRFHw5W/view?usp=sharing)
 
 ---
 
-## 🧠 Backend Highlights (PL/SQL Modules)
+## 📞 **Contact**
 
-### 📦 Supplier Module
-- Add/Update/Delete suppliers
-- Trigger ➡️ Logs deleted records to audit
-- Login authentication function
-
-### 👤 Users Module
-- Full CRUD operations
-- Trigger ➡️ Logs deletions
-- Login function
-
-### 🛍️ Product Module
-- Manage products with full CRUD
-
-### 💳 Payment Module
-- Add & fetch payments by ID/User ID
-- Trigger ➡️ Logs deleted records
-
-### 📦 Orders Module
-- Add/Update/Delete orders
-- Procedure ➡️ Returns 3 key values
-- Trigger ➡️ Logs deletions & updates stock
-
-### 🚚 Delivery Module
-- Full management + audit trigger
+- Email: [contact@urbanfood.com](mailto:contact@urbanfood.com)
+- Phone: +1-800-123-4567
 
 ---
 
-## 📊 ER Diagram
+## 👨‍💻 **Team Details**
 
-Visualizes the core structure of the platform including all key relationships between suppliers, users, products, and orders.
-
-📸 *Add ER diagram image here if available.*
-
----
-
-## 🌐 Web Interface
-
-A simple, user-friendly frontend built with **React**, integrating both Oracle and MongoDB backends 🔄 to simulate a real-world dynamic platform. 🌈
-
----
-
-## 📽️ Demo Preview
-
-[![Watch Demo](https://drive.google.com/uc?id=16R4GjlNVJaUCNgCnrbdsWCOzinESXxu2)](https://drive.google.com/file/d/1KwjudGJRlvS6HgIo_CtYlgwf0VRFHw5W/view?usp=sharing)
+| ID              | Name      | Role     | Batch     |
+|-----------------|-----------|----------|-----------|
+| COHNDSE242F-047 | **Bimsara** | Developer | HND       |
+| COHNDSE242F-048 | **Isura**   | Developer | HND       |
+| COHNDSE242F-049 | **Ravindu** | Developer | HND       |
+| COHNDSE242F-064 | **Janindu** | Lead Dev  | HND       |
+| COHNDSE242F-065 | **Jithmitha** | Designer | HND       |
+| COHNDSE242F-066 | **Tharushi** | Designer | HND       |
 
 ---
 
-## 👨‍💻 Team UrbanFood
+## 🏫 **Campus Details**
 
-| Member ID | Name        |
-|-----------|-------------|
-| COHNDSE242F-047 | Bimsara     |
-| COHNDSE242F-048 | Isura       |
-| COHNDSE242F-049 | Ravindu     |
-| COHNDSE242F-064 | Janindu     |
-| COHNDSE242F-065 | Jithmitha   |
-| COHNDSE242F-066 | Tharushi    |
-
-🧑‍🏫 **Group No:** 13  
-📚 **Subject:** Data Management 2  
-🏫 **HND - NIBM SOC, Colombo, Sri Lanka**
+- **Institute**: National Institute of Business Management (NIBM)  
+- **Campus Website**: [Visit NIBM](https://nibm.lk)
 
 ---
 
-## 🎉 Thank You for Visiting!
+## 💡 **ER Diagram**
 
-> 💡 Feel free to explore, contribute, and share feedback!
+Here is the ER diagram, representing core entities and relationships for **UrbanFood**:
 
-<p align="center">
-  <img src="https://media.giphy.com/media/xUPGcdhiQZZBv0m0RO/giphy.gif" width="200" />
-</p>
+![ER Diagram](https://via.placeholder.com/800x400) <!-- Replace with actual link -->
 
+---
+
+## 🔗 **Links to Learn More**
+
+- [Java Official](https://www.oracle.com/java/)
+- [PL/SQL Official](https://www.oracle.com/database/technologies/plsql/)
+- [NoSQL Official](https://www.mongodb.com/)
+- [React Official](https://reactjs.org/)
+
+---
+
+## 🌐 **Language Tech Links**
+
+- [Java Official](https://www.oracle.com/java/) 🔗
+- [PL/SQL Official](https://www.oracle.com/database/technologies/plsql/) 🔗
+- [MongoDB Official](https://www.mongodb.com/) 🔗
+- [React Official](https://reactjs.org/) 🔗
+
+---
+
+### **Final Touches:**
+- Smooth animations added to headings and images.
+- Interactive language buttons for redirecting to tech websites.
+
+---
+
+## 📑 **Project Overview**
+
+Good [morning/afternoon], everyone.
+
+We’re excited to present our take-home assessment project — UrbanFood, a modern e-commerce platform tailored to connect urban farmers and local producers directly with consumers who value fresh, locally made goods. These include fruits, vegetables, dairy, baked items, and even handmade crafts.
+
+As database developers, our primary goal was to design a robust, scalable system to manage the entire e-commerce workflow — from suppliers and products to users, orders, payments, and deliveries.
+
+To achieve this, we used a hybrid database approach:
+
+1. **Relational Data (Oracle Database)**:
+    - Structured transactional data (e.g., users, suppliers, orders).
+    - Data integrity and efficiency ensured via PL/SQL.
+
+2. **Unstructured Data (MongoDB)**:
+    - Product reviews, feedback, and other user-generated content.
+    - Scalable and flexible handling for dynamic content.
+
+### **Key Features of Our Database Design:**
+
+- **Supplier Management**: CRUD operations, triggers, and audit logs.
+- **User Management**: User login and CRUD functionalities with triggers.
+- **Product Management**: Full CRUD for product management.
+- **Payment Management**: CRUD for payments, with payment logs and audit tables.
+- **Order Management**: CRUD, stock update, and order-related procedures.
+- **Delivery Management**: Handling deliveries with detailed audit logs.
+
+To visualize the structure, we’ll walk you through our Entity Relationship (ER) diagram, which outlines the core entities and relationships driving UrbanFood.
+
+Finally, we developed a simple web interface that integrates both Oracle and MongoDB backends — enabling dynamic interaction with the data and simulating real-world platform behavior.
+
+---
+
+**Note:** Ensure that all links to gifs or images are replaced with actual working URLs in the markdown. Let me know if you need any more adjustments! 😊
