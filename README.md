@@ -1,114 +1,110 @@
-<!-- Animated Heading -->
+```markdown
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00C9A7&center=true&vCenter=true&width=800&lines=Welcome+to+UrbanFood+%F0%9F%8C%9F;Connecting+Urban+Farmers+with+the+Future+%F0%9F%8C%BE%F0%9F%8D%AF"/>
+  🌱 UrbanFood: Empowering Local Goodness 🌍
+  <br/>
+  <img src="https://media.giphy.com/media/6X3XcZkdxJvnO/giphy.gif" width="150"/>
 </h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PL%2FSQL-%23007396.svg?style=for-the-badge&logo=oracle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NoSQL-%2300ED64.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+</p>
 
 ---
 
 ## 🚀 Project Overview
 
-**UrbanFood** is a modern e-commerce platform connecting **urban farmers** and **local producers** with consumers who value **fresh, local products** 🥦🥛🍞🧵. From fruits and vegetables to dairy, baked goods, and handmade crafts — we bring it all together on one seamless platform. 🌐💚
+Welcome to **UrbanFood**, a modern e-commerce platform that connects 🌆 urban farmers & local producers directly with consumers 🛒 who love fresh, homemade, and handcrafted items like:
+
+- 🥦 Fruits & Vegetables
+- 🥛 Dairy Products
+- 🍞 Baked Items
+- 🧶 Handmade Crafts
 
 ---
 
-## 🧠 Tech Stack & Tools
+## 🛠️ Tech Stack & Database Design
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PL%2FSQL-%234D2C91?style=for-the-badge&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
+We followed a hybrid database approach:
 
-> 💡 **Languages Used:** Java, PL/SQL, NoSQL (MongoDB), React.js
+🔹 **Oracle (Relational DB)** - Used for structured, transactional data with full PL/SQL support for data integrity and business logic.
+🔹 **MongoDB (NoSQL)** - For dynamic, user-generated content like reviews & feedback.
 
 ---
 
-## 🗃️ Database Architecture
+## 🧠 Backend Highlights (PL/SQL Modules)
 
-🎯 **Goal**: Build a robust and scalable e-commerce database system.
+### 📦 Supplier Module
+- Add/Update/Delete suppliers
+- Trigger ➡️ Logs deleted records to audit
+- Login authentication function
 
-### 🔷 Relational Database (Oracle)
-- Focused on structured transactional data.
-- Emphasized **data integrity**, **efficiency**, and **business logic** via PL/SQL.
+### 👤 Users Module
+- Full CRUD operations
+- Trigger ➡️ Logs deletions
+- Login function
 
-### 🟩 NoSQL (MongoDB)
-- Used for **unstructured data** like product reviews and customer feedback.
-- Enables flexible and scalable content storage.
+### 🛍️ Product Module
+- Manage products with full CRUD
 
----
+### 💳 Payment Module
+- Add & fetch payments by ID/User ID
+- Trigger ➡️ Logs deleted records
 
-## 🧩 Key Oracle Entities & Features
+### 📦 Orders Module
+- Add/Update/Delete orders
+- Procedure ➡️ Returns 3 key values
+- Trigger ➡️ Logs deletions & updates stock
 
-### 👨‍🌾 Supplier
-- Procedures: Add, Update, Delete, Retrieve
-- Trigger: Log deleted records ➕ Supplier Audit Table
-- Function: Login ✅
-
-### 👤 Users
-- Full user management with procedures + triggers
-- Function: Login 🔐
-
-### 📦 Product
-- CRUD operations (Create, Read, Update, Delete)
-
-### 💳 Payment
-- Payment management procedures
-- Retrieve by payment ID or user ID
-- Trigger: Log deletions ➕ Payment Audit Table
-
-### 🧾 Orders
-- Full CRUD procedures
-- Extra: Return 3 key values from orders
-- Trigger: Log deletions ➕ Auto stock update ⚙️
-
-### 🚚 Delivery
-- Delivery procedures
-- Trigger: Delivery Audit Trail 📝
+### 🚚 Delivery Module
+- Full management + audit trigger
 
 ---
 
-## 🗺️ ER Diagram
+## 📊 ER Diagram
 
-We designed a complete **Entity Relationship (ER)** diagram to visually represent how data flows and interacts across the UrbanFood system 📐📊. *(Attached in repo)*
+Visualizes the core structure of the platform including all key relationships between suppliers, users, products, and orders.
+
+📸 *Add ER diagram image here if available.*
 
 ---
 
 ## 🌐 Web Interface
 
-A sleek web frontend integrates both **Oracle** and **MongoDB**, simulating real-world interactions 🌍⚡. Users can:
-
-- View and manage products 📋
-- Leave reviews ✍️
-- Place orders & track deliveries 📦
+A simple, user-friendly frontend built with **React**, integrating both Oracle and MongoDB backends 🔄 to simulate a real-world dynamic platform. 🌈
 
 ---
 
-## 👨‍💻 Team UrbanFood (Group 13)
+## 📽️ Demo Preview
 
-| Name              | ID                 |
-|------------------|--------------------|
-| Bimsara          | COHNDSE242F-047    |
-| Isura            | COHNDSE242F-048    |
-| Ravindu          | COHNDSE242F-049    |
-| Janindu (Vinz)   | COHNDSE242F-064    |
-| Jithmitha        | COHNDSE242F-065    |
-| Tharushi         | COHNDSE242F-066    |
-
-🎓 **HND Software Engineering** – NIBM SOC Colombo, Sri Lanka 🇱🇰
+[![Watch Demo](https://drive.google.com/uc?id=16R4GjlNVJaUCNgCnrbdsWCOzinESXxu2)](https://drive.google.com/file/d/1KwjudGJRlvS6HgIo_CtYlgwf0VRFHw5W/view?usp=sharing)
 
 ---
 
-## 💫 Final Words
+## 👨‍💻 Team UrbanFood
 
-> "UrbanFood isn’t just a system — it’s a vision to empower local producers and deliver freshness to every doorstep." 🌿🏡
+| Member ID | Name        |
+|-----------|-------------|
+| COHNDSE242F-047 | Bimsara     |
+| COHNDSE242F-048 | Isura       |
+| COHNDSE242F-049 | Ravindu     |
+| COHNDSE242F-064 | Janindu     |
+| COHNDSE242F-065 | Jithmitha   |
+| COHNDSE242F-066 | Tharushi    |
+
+🧑‍🏫 **Group No:** 13  
+📚 **Subject:** Data Management 2  
+🏫 **HND - NIBM SOC, Colombo, Sri Lanka**
+
+---
+
+## 🎉 Thank You for Visiting!
+
+> 💡 Feel free to explore, contribute, and share feedback!
 
 <p align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/xUPGcdhiQZZBv0m0RO/giphy.gif" width="200" />
 </p>
-
----
-
-## 📫 Contact
-
-📧 For inquiries or collaborations: [@MrVinz23](https://www.github.com/MrVinzSL) 🌟
+```
