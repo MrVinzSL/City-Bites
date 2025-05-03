@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![Database GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDllNDBmNmRiYzYxNzEzYmQ3YzYwMTY5ODVkZjI1MGM5ZTZmYThiOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/RhMmGFlRGT7TaUUZQf/giphy.gif)
+  ![Database GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3o3M205eHY0Nno5YjBkNm84N2hjamRhMzAyazFoZXExNXU1NDh3NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sRFEa8lbeC7zbcIZZR/giphy.gif)
 
   ### <em>✨ Fresh from Farm to Table: Connecting Urban Farmers with Conscious Consumers ✨</em>
   
@@ -250,9 +250,6 @@ Visit [nibm.lk](https://www.nibm.lk) for more information.
 
 ## 📬 Contact Information
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDcwMmM3NjZmYmQ5Njg5ZTYzNDYxMDY3ODU0NTkwODJmYzBlZGJmNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/KFhT0xz7cc4tuMmZ4D/giphy.gif" width="400px" alt="Contact Animation">
-</div>
 
 <table align="center">
   <tr>
