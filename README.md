@@ -303,6 +303,15 @@ Visit [nibm.lk](https://www.nibm.lk) for more information.
   </a>
 </div>
 
+## 📊 **Entity Relationship (ER) Diagram**  
+Check out our **ER Diagram** for a detailed look at the core entities and relationships driving **UrbanFood**.
+
+[![View ER Diagram](https://img.shields.io/badge/View%20ER%20Diagram-Link%20Here-blue)](https://drive.google.com/file/d/1ElDqNp5TALURasoqKArkJBq7NIRTfarV/view?usp=drive_link)
+
+---
+
+**Note:** The button above will take you directly to our ER Diagram hosted on Google Drive for easy viewing and understanding of the database structure.
+
 ---
 
 <div align="center">
